@@ -1,0 +1,151 @@
+.parent-container{
+    box-sizing: border-box;
+    padding: 4rem 3rem;
+    width: 80%;
+}
+.container{
+    margin-left: 4rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* sections  */
+.editable{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid #f2f4f5;
+    height: 100px;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.tag-name{
+    font-size: 1rem;
+    width: 140px;
+    font-weight: 400;
+}
+.data-edit{
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 3rem;
+}
+.edit{
+    background: none;
+    color: rgb(161, 161, 161);
+    border: none;
+}
+
+/* for the resume  */
+.data-first{
+    color: rgb(161, 161, 161);
+    background-color: #F2FBFF;
+    border: 1px solid #c6e9f8;
+    padding: 0.4rem 1rem;
+}
+
+/* for rest  */
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.job-span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.job-title{
+    font-size: 1rem;
+    font-weight: 400;
+    color: gray;
+}
+
+/* personal section  */
+.editable-personal{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #f2f4f5;
+    padding: 2rem 0;
+}
+.info-edit{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.info{
+    display: flex;
+    gap: 2rem;
+}
+.profile{
+    background-color: rgb(161, 161, 161);
+    padding: 1rem 0.3rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.4rem;
+}
+.img-holder{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid rgb(161, 161, 161);
+}
+.img-holder>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.country{
+    font-size: 1rem;
+    color: rgb(161, 161, 161);
+}
+
+/* links  */
+.links{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.link>a{
+    text-decoration: none;
+    color: black;
+}
+.hr{
+    display: block;
+    height: 2px;
+    background-color: #f2f4f5;
+}
+
+
+/* NOTE  */
+.NOTE{
+    display: block;
+    position: absolute;
+    width: 55%;
+    top: 20px;
+    right: 250px;
+    background-color: red;
+    color: white;
+    padding: 0.4rem 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}

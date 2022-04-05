@@ -1,0 +1,82 @@
+.modal-container{
+    position: absolute;
+    width: 80%;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: white;
+    width: 50%;
+    height: 70vh;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+}
+.form{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.save{
+    background-color: #0D6EFD;
+    border: 1px solid #0D6EFD;
+    color: white;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
+}
+.save:hover{
+    background-color: white;
+    color: #0D6EFD;
+}
+.label{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* resume type  */
+.file-input{
+    background-color: #CCCCCC;
+    padding: 0.4rem 1rem;
+}
+/* personal & Experience type  */
+.input{
+    width: 60%;
+    border: 2px solid #CCCCCC;
+    outline: none;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+}
+/* availability type  */
+.dropdown{
+    width: 60%;
+    border: 2px solid #CCCCCC;
+    outline: none;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+}
+
+
+/* default  */
+.invalid{
+    width: 90%;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}

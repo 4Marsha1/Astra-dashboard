@@ -1,0 +1,56 @@
+.sidebar{
+    height: 100vh;
+    width: 20%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* logo  */
+.logo{
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+/* nav sections */
+.segment{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #ccc;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+.tab-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.tab-text-2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.tab-text:hover, 
+.tab-text-2:hover{
+    color: rgb(161, 161, 161);
+}
+.icons{
+    width: 30px;
+    height: 35px;
+}
+.icons-2{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
